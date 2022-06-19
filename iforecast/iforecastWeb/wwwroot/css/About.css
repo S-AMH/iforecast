@@ -1,0 +1,56 @@
+﻿
+.body__article__header {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.body__summary__h2 {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.body__summary__article__sub__h3 {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.body__summary__article__sub__p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 1.5%;
+}
+
+.body__workExperience__h2 {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.body__workExperience__article__sub__h3 {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.body__workExperience__article__sub__h3__subHeader {
+    font-style: normal;
+    font-weight: lighter;
+    color: dimgrey;
+}
+
+.body__workExperience__article__sub__p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 1.5%;
+}
+
+.ul__lvl1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 1%;
+}
