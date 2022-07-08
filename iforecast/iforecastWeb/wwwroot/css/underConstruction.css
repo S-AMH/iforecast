@@ -1,0 +1,112 @@
+﻿body {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(160,141,231,1) 0%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+h2{
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+p{
+    font-size: larger;
+    font-family: monospace;
+    font-weight: normal;
+    font-style:normal;
+}
+.background-content-60{
+    background: rgb(255, 255, 255, 0.10);
+}
+.background-title-60{
+    background: rgb(163, 151, 209, 0.70);
+}
+.header{
+    margin-top: 2vh;
+    margin-right: 30vh;
+}
+.imgWrap{
+    width: 95%;
+    margin: auto;
+}
+.imgWrap img {
+    border-radius: 20px;
+    display: block;
+    max-width: 1008px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.flex-main-direction{
+    flex-direction: row;
+}
+.justify-content-header{
+    justify-content: flex-end;
+}
+.justify-content-text{
+    justify-content: flex-start;
+}
+@media (max-width:641px) {
+    .flex-main-direction {
+        flex-direction: column-reverse;
+    }
+    .justify-content-header {
+        justify-content: safe center;
+    }
+    .justify-content-text{
+        justify-content: safe center;
+    }
+    .header {
+        margin: 1vh;
+    }
+    #underConstructionTxt{
+        margin: 1vh;
+        flex: 1;
+    }
+    #underConstructionImg{
+        margin: 1vh;
+        flex: 1;
+    }
+}
+#underConstructionTxt {
+    order: 1;
+    display: flex;
+    flex: 1.5;
+    min-height: 80vh;
+    height: auto;
+    margin: 1vh;
+    margin-left: 3vh;
+    padding: 0.5vh;
+    border-radius: 25px;
+}
+#underConstructionImg {
+    order: 2;
+    display: flex;
+    flex: 2;
+    height: 80vh;
+    margin: 1vh;
+    padding: 0.5vh;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+#countdownTimer{
+    color: rgb(255, 106, 0);
+    border-radius: 5px;
+    background: rgb(0, 0, 0, 0.3)
+}
